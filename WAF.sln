@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAF.Tools", "WAF.Tools\WAF.Tools.csproj", "{B1569B7A-66B1-44BD-8600-3A51945879F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAF.UI", "WAF.UI\WAF.UI.csproj", "{4735D3F2-9C75-4066-828C-EC8C24C9DB67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B1569B7A-66B1-44BD-8600-3A51945879F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1569B7A-66B1-44BD-8600-3A51945879F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1569B7A-66B1-44BD-8600-3A51945879F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4735D3F2-9C75-4066-828C-EC8C24C9DB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4735D3F2-9C75-4066-828C-EC8C24C9DB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4735D3F2-9C75-4066-828C-EC8C24C9DB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4735D3F2-9C75-4066-828C-EC8C24C9DB67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

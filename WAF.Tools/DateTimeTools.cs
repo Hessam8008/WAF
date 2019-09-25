@@ -8,5 +8,10 @@ namespace WAF.Tools
 {
     public class DateTimeTools
     {
+        public string ConvertToPersian(DateTime dt)
+        {
+            return string.Empty;
+        }
+
     }
 }
