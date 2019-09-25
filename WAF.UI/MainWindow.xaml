@@ -1,8 +1,19 @@
-﻿<Window x:Class="WAF.UI.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WAF.UI"
+        xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" x:Class="WAF.UI.MainWindow"
         mc:Ignorable="d"
-        Title="Login" Height="147.775" Width="427.225" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"/>
+        Title="Login" Height="193.538" Width="435.805" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <dxlc:LayoutControl Margin="10,10,4,9" Orientation="Vertical">
+        <dxlc:LayoutItem Label="User name:">
+            <dxe:TextEdit/>
+        </dxlc:LayoutItem>
+        <dxlc:LayoutItem Label="Password:">
+            <dxe:TextEdit/>
+        </dxlc:LayoutItem>
+        <dx:SimpleButton Content="Login" Height="25" Margin="0,0,0,-5" VerticalAlignment="Top" Glyph="{dx:DXImage Image=ModelEditor_KeyProperty.png}"/>
+    </dxlc:LayoutControl>
+</Window>
